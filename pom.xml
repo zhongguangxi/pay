@@ -23,6 +23,7 @@
         <module>pay-cloud-eureka-server</module>
         <module>pay-cloud-ribbon-server</module>
         <module>pay-cloud-feign-serice</module>
+        <module>pay-cloud-service-zuul</module>
     </modules>
 
     <!--集中定义平台公共依赖jar版本号-->
