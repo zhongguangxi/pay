@@ -18,6 +18,9 @@
     <modules>
         <module>pay-stat</module>
         <module>pay-cloud-config-server</module>
+        <module>pay-cloud-eureka-server</module>
+        <module>pay-cloud-ribbon-server</module>
+        <module>pay-stat-server</module>
     </modules>
 
     <!--集中定义平台公共依赖jar版本号-->
