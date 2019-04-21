@@ -3,8 +3,8 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.bxoon.pay</groupId>
-    <artifactId>pay</artifactId>
+    <groupId>com.bxoon.spring-cloud-sleuth</groupId>
+    <artifactId>spring-cloud-sleuth</artifactId>
     <version>1.0-SNAPSHOT</version>
     <!--打包方式为pom-->
     <packaging>pom</packaging>
@@ -17,13 +17,8 @@
     </parent>
 
     <modules>
-        <module>pay-stat</module>
-        <module>pay-stat-server</module>
-        <module>pay-cloud-config-server</module>
-        <module>pay-cloud-eureka-server</module>
-        <module>pay-cloud-ribbon-server</module>
-        <module>pay-cloud-feign-serice</module>
-        <module>pay-cloud-service-zuul</module>
+        <module>service-hi</module>
+        <module>service-miya</module>
     </modules>
 
     <!--集中定义平台公共依赖jar版本号-->
